@@ -61,10 +61,3 @@ g++ " Assigment4.cpp"
 
 ## Run
 ./a.out program.asm Instruction_Byte_Diagram.txt
-
-## Output
-
-HEX BYTES                         SOURCE
----------------------------------------------------------------
-90                                nop
-...
