@@ -1,6 +1,4 @@
-// C++17 version of the supplied IA-32 assembler.
-// Build: g++ -std=c++17 assembler_cpp_version.cpp -o assembler
-// Run:   ./assembler program.asm Instruction_Byte_Diagram.txt
+ // Run:   ./assembler program.asm Instruction_Byte_Diagram.txt
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
