@@ -61,3 +61,34 @@ g++ " Assigment4.cpp"
 
 ## Run
 ./a.out program.asm Instruction_Byte_Diagram.txt
+
+
+# Assigment5
+Reads opcode/instruction definitions from a table file
+- Supports `.text` and `.data` sections
+- Handles labels and symbols
+- Supports basic data directives such as `DB`, `DW`, and `DD`
+- Matches instructions against valid opcode forms
+- Calculates instruction sizes and operand values
+- Produces a pass-1 report and a listing file
+
+# Assigment6
+- Converts supported x86 instructions into machine-code bytes.
+- Identifies flags modified by instructions.
+- Identifies flags checked by conditional jumps.
+- Describes EFLAGS behavior for arithmetic, logical, shift, rotate, and control-flow instructions.
+- Generates an instruction listing with addresses, hexadecimal bytes, and flag information.
+- Generates instruction_flags.txt containing flag metadata and explanatory notes.
+- Generates symbol_table.txt with symbol information.
+
+## EFLAGS Analysis
+The analyzer identifies important flags, including:
+- CF — Carry Flag
+- ZF — Zero Flag
+- SF — Sign Flag
+- OF — Overflow Flag
+- PF — Parity Flag
+- AF — Auxiliary Carry Flag
+- DF — Direction Flag
+- IF — Interrupt Flag
+It distinguishes between flags modified and flags checked, helping explain how instructions such as CMP, JE, JNE, and JG interact.
